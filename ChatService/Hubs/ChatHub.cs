@@ -9,7 +9,7 @@ namespace ChatService.Hubs
     public class ChatHub : Hub
     {
         private readonly string _botUser;
-        private readonly string _test;
+       
        public ChatHub()
         {
             _botUser = "MyChat Bot";
